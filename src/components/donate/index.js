@@ -34,7 +34,7 @@ function Index() {
         <p className={style.never2}>SAVE AMERICA!</p>
         <div>
           {/* the query below should depend on what we are doing okay */}
-          <button className={`${style.buttons} ${false? style.bgBlack: undefined}`}>$20.24 - CLICK THIS AMOUNT IF YOU'RE SUPPORTING PRESIDENT TRUMP IN 2024!</button>
+          <button className={`${style.buttons} ${false? style.bgBlack: undefined}`}>$20.24 - CLICK THIS AMOUNT IF YOU&apos;RE SUPPORTING PRESIDENT TRUMP IN 2024!</button>
           <button className={`${style.buttons} ${false? style.bgBlack: undefined}`}>$47 - DONATE THIS AMOUNT IF YOU THINK DONALD J. TRUMP IS THE GREATEST PRESIDENT OF ALL TIME!</button>
           <button className={`${style.buttons} ${false? style.bgBlack: undefined}`}>$100</button>
           <button className={`${style.buttons} ${false? style.bgBlack: undefined}`}>$250</button>

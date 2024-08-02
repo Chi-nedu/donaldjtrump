@@ -12,7 +12,7 @@ function Index() {
                             <div className={style.redBox}>
                                 <h1 className='pb-[2rem]'>READ THE OFFICIAL 2024 Republican Party Platform <a className='underline' href='https://rncplatform.donaldjtrump.com/?_gl=1*261vw5*_gcl_au*ODE4OTk3NjAwLjE3MjE5NTgxNjc.&_ga=2.126595149.1575218864.1722479466-989311686.1721958167'> HERE</a>
                                 </h1>
-                                <p>President Trump’s 20 CORE PROMISES</p>
+                                <p>President Trump&apos;s 20 CORE PROMISES</p>
                                 <p>TO MAKE AMERICA GREAT AGAIN!</p>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ function Index() {
                 </div>
                 <div className={style.agendas}>
                     <p className={style.number}>13</p>
-                    <p className={style.text}>KEEP THE U.S. DOLLAR AS THE WORLD'S RESERVE CURRENCY</p>
+                    <p className={style.text}>KEEP THE U.S. DOLLAR AS THE WORLD&apos;S RESERVE CURRENCY</p>
                 </div>
                 <div className={style.agendas}>
                     <p className={style.number}>14</p>
@@ -88,7 +88,7 @@ function Index() {
                 </div>
                 <div className={style.agendas}>
                     <p className={style.number}>17</p>
-                    <p className={style.text}>KEEP MEN OUT OF WOMEN'S SPORTS</p>
+                    <p className={style.text}>KEEP MEN OUT OF WOMEN&apos;S SPORTS</p>
                 </div>
                 <div className={style.agendas}>
                     <p className={style.number}>18</p>

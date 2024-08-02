@@ -16,9 +16,9 @@ function Hero() {
   return (
     <div className={style.heroCOntainer} style={styled}>
         <div className={`${style.cont} container m-auto`}>
-            <p className={style.text1}>"THEY’RE NOT AFTER ME,</p>
-            <p className={style.text1}>THEY’RE AFTER YOU</p>
-            <p className={style.text1}>…I’M JUST STANDING</p>
+            <p className={style.text1}>"THEY&apos;RE NOT AFTER ME,</p>
+            <p className={style.text1}>THEY&apos;RE AFTER YOU</p>
+            <p className={style.text1}>…I&apos;M JUST STANDING</p>
             <p className={style.text1}>IN THE WAY!”</p>
             <p className='text-white text-[1.3rem] py-[1rem] w-[60%] font-[200]'>DONALD J. TRUMP, 45th President of the United States</p>
             <div className={style.linkCOntainer}>
