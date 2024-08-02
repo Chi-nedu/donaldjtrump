@@ -1,0 +1,68 @@
+.listLast{
+    @apply list-disc pl-[2rem] text-[var(--dark-blue)] opacity-80 font-[400] text-justify text-[0.9rem] ;
+}
+.headerThing{
+    @apply font-[600] text-[1.2rem] pt-[1rem] text-[var(--dark-blue)] opacity-80;
+}
+.paid{
+    @apply text-[var(--dark-blue)] p-[2rem] text-center capitalize border-[0.1rem] mt-[2rem] opacity-80 border-[var(--dark-blue)];
+}
+.paragraph{
+    @apply text-center pt-[2rem] text-[0.8rem] font-[400] px-[2rem];
+}
+.kamala{
+    @apply w-full my-[2rem] p-[1rem]  border-[0.08rem]  border-[var(--dark-red)] transition duration-200 rounded;
+} 
+.kamala h1{
+    @apply text-[var(--dark-red)];
+}
+.unkamala h1{
+    @apply text-white;
+}
+.unkamala{
+    @apply bg-[var(--dark-red)];
+}
+.unkamala *{
+    @apply text-white;
+}
+.inLine{
+    @apply inline;
+}
+.deleft{
+    @apply text-[1.5rem] text-center pt-[1.5rem] font-[800];
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.never{
+    @apply text-[var(--dark-red)] font-[800] text-center underline italic text-[3.1rem] py-[1rem];
+    font-family: impact, sans-serif;
+}
+.never2{
+    @apply text-[var(--dark-red)] font-[800] text-center italic text-[3.1rem] py-[1rem];
+    font-family: impact, sans-serif;
+}
+.Image2{
+    @apply relative aspect-video w-[min(12rem,100%)] m-auto;
+}
+.buttons{
+    @apply rounded w-full bg-[var(--dark-red)] text-white p-[1rem] mb-[1rem] text-center font-[600] transition duration-200 hover:scale-[1.02];
+}
+.bgBlack{
+    @apply bg-black;
+}
+.input2{
+    @apply p-[1rem] border-[var(--text-blue)] opacity-70 border-[0.1rem] text-[var(--text-blue)] w-full rounded;
+} 
+.btn2{
+    @apply px-[1rem] py-[0.2rem] font-[600] transition duration-200 text-[var(--dark-red)] border-[0.1rem] border-[var(--dark-red)] rounded;
+}
+.bgRed{
+    @apply text-white bg-[var(--dark-red)];
+}
+@media screen and (max-width: 724px) {
+    .paragraph{
+        @apply px-[1rem];
+    }
+    .deleft{
+        @apply text-[1.4rem];
+    }
+}

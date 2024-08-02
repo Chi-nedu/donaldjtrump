@@ -1,0 +1,33 @@
+.container{
+    @apply -my-[4rem] p-[1rem] relative z-[100000000000000];
+}
+.container_Box{
+    @apply w-[min(55rem,100%)];
+}
+.redBox{
+    @apply w-full h-[6rem] bg-[var(--dark-red)]
+}
+.socialsBox{
+    @apply p-[5rem] flex justify-between gap-4 bg-[white] shadow-2xl shadow-black/20 z-[100000000000000];
+}
+.socialLink{
+    @apply text-black text-[4rem] transition duration-200 hover:scale-[1.05]
+}
+
+@media screen and (max-width: 784px) {
+    .container{
+        @apply -my-[4rem] p-[1rem] relative z-[0];
+    }
+    .container_Box{
+        @apply w-[min(55rem,100%)];
+    }
+    .redBox{
+        @apply w-full h-[4rem] bg-[var(--dark-red)]
+    }
+    .socialsBox{
+        @apply p-[3rem] flex justify-between gap-2 bg-[white] shadow-2xl shadow-black/20 z-[100000000000000];
+    }
+    .socialLink{
+        @apply text-black text-[2rem] transition duration-200 hover:scale-[1.1]
+    }
+}

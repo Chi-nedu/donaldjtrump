@@ -1,0 +1,46 @@
+.banner5{
+    background-image: url("/images/banner5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @apply relative aspect-[3];
+}
+.agenda47{
+    @apply text-[2.4rem] font-[800] m-auto text-center text-white ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.redBox{
+    @apply bg-[var(--dark-red)] px-[1rem] py-[1rem] w-[min(100%,70rem)] m-auto text-center;
+}
+.redBox h1,
+.redBox p{
+    @apply text-white font-[700] text-[1.5rem];
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.agendas{
+    @apply flex gap-[1rem] items-start py-[1rem];
+}
+.number{
+    @apply bg-[var(--dark-blue)] text-white w-[1.5rem] text-center font-[600] text-[0.8rem] py-[0.2rem];
+    width: 1.5rem !important;
+}
+.text{
+    @apply text-[var(--dark-blue)] uppercase font-[600] max-w-[calc(100%-2.5rem)] text-justify;
+}
+.platform{
+    @apply m-auto mt-[1rem] py-[0.5rem] font-[600] text-center w-[min(90%,40rem)] text-white bg-[var(--dark-red)] transition duration-200 hover:bg-[var(--darker-red)];
+}
+@media screen and (max-width: 724px) {
+    .banner5{
+        @apply relative aspect-[2.4];
+    }
+    .redBox h1,
+    .redBox p{
+        @apply text-[1rem];
+    }
+}
+@media screen and (max-width: 624px) {
+    .banner5{
+        @apply aspect-video;
+    }
+}

@@ -1,0 +1,67 @@
+.container{
+    @apply bg-[var(--dark-blue)] px-[1rem] pt-[6rem] pb-[2rem] -z-10;
+}
+.mainCOnatiner{
+
+}
+.joinMovement{
+    @apply font-[600] text-[1rem] text-white py-[1rem];
+}
+.form{
+    @apply flex gap-[0.3rem];
+}
+.input1{
+    @apply w-[20rem] border-[0.08rem] border-white bg-transparent p-[0.5rem] px-[1rem] text-[0.8rem] placeholder:text-white text-white font-[400];
+}
+.input2{
+    @apply w-[8rem] border-[0.08rem] border-white bg-transparent p-[0.5rem] px-[1rem] text-[0.8rem] placeholder:text-white text-white font-[400];
+}
+.flexBox{
+    @apply flex justify-between items-center pb-[4rem];
+}
+.submit{
+    @apply text-[2.5rem] text-white;
+}
+.socials{
+    @apply transition duration-100 text-[1.5rem] border-[white] hover:border-black hover:text-black border-[0.1rem] rounded-full p-[0.7rem] text-white;
+}
+.footer2{
+    @apply flex justify-between items-center ;
+}
+.paid{
+    @apply text-white border-[white] text-[0.7rem] p-[0.3rem] border-[0.1rem];
+}
+.linkCOntainer{
+    @apply flex gap-3
+}
+.linkCOntainer a{
+    @apply text-white text-[0.6rem] font-[300] transition duration-200 hover:text-black; 
+}
+.lastman{
+    @apply text-[0.65rem] font-[400] pt-[3rem] text-white;
+} 
+@media screen and (max-width: 778px) {
+    .footer2{
+        @apply flex-col gap-[2rem] justify-center items-center ;
+    }
+    .paid{
+        @apply w-full text-center;
+    }
+    .lastman{
+        @apply text-center
+    }
+    .flexBox{
+        @apply flex-col text-center gap-[1rem];
+    }
+}
+@media screen and (max-width:578px) {
+    .form{
+        @apply w-full flex-wrap;
+    }
+    .input1{
+        @apply w-full;
+    }
+    .input2{
+        @apply w-[calc(100%-2.8rem)]
+    }
+}

@@ -1,4 +1,4 @@
-import Homepage from '@/components/homepage'
+import Donate from '@/components/donate'
 
 export const metadata = {
   title: "Donald J. Trump",
@@ -8,6 +8,6 @@ export const metadata = {
 
 export default function Home() {
   return (
-  <Homepage/>   
+  <Donate/>   
   );
 }

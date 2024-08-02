@@ -1,0 +1,105 @@
+.nav{
+    @apply fixed top-0 left-0 w-full border-b-[0.2rem] border-[var(--dark-red)] bg-white;
+}
+.uppermostfloor{
+    @apply bg-[var(--dark-red)] py-1 text-center uppercase w-full text-[0.8rem] text-white font-[800];
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mainNav{
+    @apply flex justify-between py-[1rem] items-center ;
+}
+.logoImage{
+    @apply relative w-[6rem] h-[3rem];
+}
+.navLinks1{
+    @apply flex gap-[2rem] items-center;
+}
+.navBig{
+    @apply flex gap-[1rem] items-center;
+}
+.navLinkBig1{
+    @apply transition duration-200 font-[00] text-[0.9rem] text-[var(--dark-blue)] hover:text-[var(--dark-red)];
+    font-family: Arial, Helvetica, sans-serif;
+}
+.seclink1{
+    font-family: Arial, Helvetica, sans-serif;
+    @apply font-[600] text-[1rem] px-[1.2rem] py-[0.5rem] rounded-[2px] text-[white] bg-[var(--dark-red)];
+}
+.seclink2{
+    font-family: Arial, Helvetica, sans-serif;
+    @apply font-[600] text-[1rem] px-[1.2rem] py-[0.5rem] rounded-[2px] text-[white] bg-[var(--dark-blue)];
+}
+.coloredBtn{
+    @apply flex gap-[1rem] uppercase;
+}
+.toggleClose
+.toggle{
+    @apply hidden;
+    display: none;
+}
+.miniNav{
+    @apply transition duration-500 fixed top-[6.6rem] right-0 w-[min(628px,100vw)] h-[calc(100vh-6.8rem)] bg-white;
+}
+.navActive{
+    @apply translate-x-[100%];
+}
+.link1B{
+    @apply py-[0.5rem] px-[2rem] transition duration-200 uppercase text-[var(--dark-blue)] hover:text-[var(--dark-red)] font-[600] border-t-[0.1rem] border-slate-300;
+}
+.link2B{
+    @apply py-[0.5rem] px-[2rem] transition duration-200 uppercase text-[var(--dark-blue)] hover:text-[var(--dark-red)] font-[600] pl-[4rem] text-[0.8rem];
+}
+.coloredBtn2{
+    @apply flex flex-col gap-[0.2rem] uppercase;
+}
+.seclink11{
+    font-family: Arial, Helvetica, sans-serif;
+    @apply font-[600] text-[1rem] transition duration-200 px-[1.2rem] py-[0.5rem] rounded-[2px] text-[white] bg-[var(--dark-red)];
+}
+.seclink22{
+    font-family: Arial, Helvetica, sans-serif;
+    @apply font-[600] text-[1rem] transition duration-200 px-[1.2rem] w-full py-[0.5rem] rounded-[2px] text-[white] bg-[var(--dark-blue)];
+}
+@media screen and (min-width: 1024px) {
+    .miniNav{
+        @apply hidden;
+    } 
+}
+@media screen and (max-width: 1024px) {
+    .navBig{
+        @apply hidden;
+    }
+    .toggle{
+        @apply flex flex-col gap-[0.5rem] transition-all  duration-150;
+    }
+    .toggleClose{
+        /* @apply hidden; */
+        @apply flex flex-col gap-[0rem] transition-all  duration-150;
+    }
+    .toggle .box1{
+        @apply w-[2.4rem] h-[0.3rem] bg-[var(--dark-blue)] rounded;
+    }
+    .toggle .box2{
+        @apply w-[2.4rem] h-[0.3rem] bg-[var(--dark-blue)] rounded;
+    }
+    .toggle .box3{
+        @apply w-[2.4rem] h-[0.3rem] bg-[var(--dark-blue)] rounded;
+    }
+    .toggleClose .box1{
+        @apply w-[2.4rem] h-[0.2rem] bg-[var(--dark-blue)] rounded rotate-45;
+    }
+    .toggleClose .box2{
+        @apply w-[2.4rem] h-[0.2rem] bg-[var(--dark-blue)] rounded hidden;
+    }
+    .toggleClose .box3{
+        @apply w-[2.4rem] h-[0.2rem] bg-[var(--dark-blue)] rounded -rotate-45;
+    }
+    .seclink1{
+        font-family: Arial, Helvetica, sans-serif;
+        @apply font-[600] text-[0.8rem] px-[1.2rem] py-[0.5rem] rounded-[2px] text-[white] bg-[var(--dark-red)];
+    }
+    .seclink2{
+        font-family: Arial, Helvetica, sans-serif;
+        @apply font-[600] text-[0.8rem] px-[1.2rem] py-[0.5rem] rounded-[2px] text-[white] bg-[var(--dark-blue)];
+    }
+}

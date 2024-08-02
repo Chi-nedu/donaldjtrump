@@ -1,0 +1,43 @@
+.input1{
+    @apply w-[20rem] border-[0.08rem] border-[var(--dark-blue)] bg-transparent p-[0.5rem] px-[1rem] text-[0.8rem] placeholder:text-[var(--dark-blue)] text-[var(--dark-blue)] font-[400];
+}
+.input2{
+    @apply w-[8rem] border-[0.08rem] border-[var(--dark-blue)] bg-transparent p-[0.5rem] px-[1rem] text-[0.8rem] placeholder:text-[var(--dark-blue)] text-[var(--dark-blue)] font-[400];
+}
+.form{
+    @apply flex gap-[0.3rem] justify-center px-[2rem]  pt-[4rem] bg-white pb-[2rem];
+}
+.container{
+    @apply -mt-[4rem] z-10 pb-[4rem];
+}
+.container2{
+    @apply mx-[2rem] w-[min(80%,40rem)] shadow-lg;
+}
+.joinMovement{
+    @apply text-white bg-[var(--dark-red)] px-[2rem] py-[1rem] font-[800] text-[2.8rem];
+}
+@media screen and (max-width:728px) {
+    .container{
+        @apply mt-[0rem] z-10 pt-[4rem];
+    }
+}
+@media screen and (max-width:578px) {
+    .joinMovement{
+        @apply text-[1.5rem];
+    }
+    .container{
+        @apply mt-[0rem] z-10;
+    }
+    .container2{
+        @apply mx-[1rem] w-[90%] shadow-lg;
+    }
+    .form{
+        @apply w-full flex-wrap justify-start px-[1rem]  pt-[2rem] bg-white pb-[1.5rem];
+    }
+    .input1{
+        @apply w-full;
+    }
+    .input2{
+        @apply w-[calc(100%-2.8rem)]
+    }
+}

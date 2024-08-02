@@ -1,0 +1,46 @@
+.external{
+    background-image: url('/images/bg2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    @apply py-[5rem] px-[1rem] bg-[#4768c2]/[96%];
+    
+}
+.mainContainer{
+    
+}
+.horizontalLinw{
+    @apply w-[6rem] h-[0.2rem] mb-[2rem] m-auto bg-[var(--dark-red)];
+}
+.platLink{
+    @apply px-[2rem] py-[0.5rem] m-auto w-fit h-fit font-[600] hover:bg-white border-[0.08rem] border-white bg-transparent text-[white] my-[2rem] hover:text-[var(--dark-red)] transition duration-200;
+}
+.secondCOntainer{
+    @apply items-start gap-4;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.products{
+    
+}
+.product{
+
+}
+.productImage{
+    @apply w-full aspect-square relative;
+}
+.productText{
+    @apply pt-[1rem] text-white/80 text-[0.8rem];
+}
+
+@media screen and (max-width: 1024px) {
+    .secondCOntainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 524px) {
+    .secondCOntainer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,36 @@
+.external{
+    background-image: url('/images/bg1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    @apply py-[4rem] px-[1rem] bg-white/95;
+    
+}
+.mainContainer{
+    @apply gap-[4rem] items-center;
+    display: grid ;
+    grid-template-columns: repeat(2, 1fr)
+}
+.image{
+    @apply w-full aspect-video relative ;
+}
+.texts{
+    @apply w-full ;
+}
+.heading1{
+    @apply text-[2.5rem] font-[800] text-[var(--dark-blue)];
+    line-height: 2.5rem;
+}
+.p{
+    @apply py-[1rem] text-[01.1rem] font-[200] text-justify;
+}
+.platLink{
+    @apply px-[2rem] py-[0.5rem] font-[600] hover:bg-[var(--dark-red)] border-[0.08rem] border-[var(--dark-red)] bg-transparent text-[var(--dark-blue)] my-[2rem] hover:text-white transition duration-200;
+}
+
+@media screen and (max-width: 1024px) {
+    .mainContainer{
+        grid-template-columns: 1fr;
+    }
+}

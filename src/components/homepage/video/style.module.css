@@ -1,0 +1,6 @@
+.heading{
+    @apply text-center text-[1.8rem] font-[200];
+}
+.heading b{
+    @apply font-[600]
+}

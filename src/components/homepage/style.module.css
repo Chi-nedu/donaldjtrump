@@ -1,0 +1,67 @@
+.heroCOntainer{
+    @apply pt-[4rem] pb-[2rem] relative -z-10;
+}
+.text1{
+    @apply text-white text-[4rem] font-[600];
+    line-height: 3.4rem;
+}
+.linkCOntainer{
+    @apply flex gap-[1rem]
+}
+.link,
+.link1{
+    @apply text-white font-[600] p-[0.5rem] px-[2rem];
+}
+.link{
+    @apply transition duration-200 bg-[var(--dark-red)] hover:opacity-80;
+}
+.link1{
+    @apply transition duration-200 bg-[var(--dark-blue)] hover:bg-transparent border-[0.1rem] border-[var(--dark-blue)];
+}
+.socials{
+    @apply absolute flex flex-col gap-3  right-[1.5rem] bottom-[8rem];
+}
+.cont{
+    @apply pb-[4rem];
+}
+@media screen and (max-width: 1025px) {
+    .text1{
+        @apply  text-[3rem];
+    }
+}
+@media screen and (min-width: 1025px) {
+    .text1:first-of-type{
+        @apply  pt-[8rem];
+    }
+}
+@media screen and (max-width: 728px) {
+    /* the main breakpoint */
+    .heroCOntainer{
+        @apply pt-[4rem] pb-[2rem];
+    }
+    .text1{
+        @apply  text-[2.3rem];
+         line-height: 2.1rem;
+
+    }
+    .socials{
+        @apply  flex-row right-[1.5rem] gap-4 bottom-[2rem];
+    }
+    .cont{
+        @apply pb-[0rem];
+    }
+}
+@media screen and (max-width: 504px) {
+    .text1{
+        @apply  text-[1.5rem];
+        line-height: 1.2rem;
+
+    }
+    .linkCOntainer{
+        @apply flex-col gap-[1rem]
+    }
+    .link,
+    .link1{
+        @apply w-fit;
+    }
+}
