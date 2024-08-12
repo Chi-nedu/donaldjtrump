@@ -1,12 +1,12 @@
 .heroCOntainer{
-    @apply pt-[4rem] pb-[2rem] relative -z-10;
+    @apply pt-[4rem] pb-[2rem] relative z-0;
 }
 .text1{
     @apply text-white text-[4rem] font-[600];
     line-height: 3.4rem;
 }
 .linkCOntainer{
-    @apply flex gap-[1rem]
+    @apply flex gap-[1rem] pt-[2rem]
 }
 .link,
 .link1{

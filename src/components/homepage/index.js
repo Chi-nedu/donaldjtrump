@@ -12,7 +12,7 @@ function Index() {
         <Hero/>
         <JoinTheMove/>
         <Rally/>
-        <Video/>
+        {/* <Video/> */}
         <Shop/>
         <Socials/>
     </MainLayout>

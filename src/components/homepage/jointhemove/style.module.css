@@ -8,7 +8,7 @@
     @apply flex gap-[0.3rem] justify-center px-[2rem]  pt-[4rem] bg-white pb-[2rem];
 }
 .container{
-    @apply -mt-[4rem] z-10 pb-[4rem];
+    @apply -mt-[4rem] z-50 relative pb-[4rem];
 }
 .container2{
     @apply mx-[2rem] w-[min(80%,40rem)] shadow-lg;
